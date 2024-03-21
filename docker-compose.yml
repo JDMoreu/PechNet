@@ -10,5 +10,5 @@ services:
       - "0.0.0.0:9090:9090"
     volumes:
       # pls change [config_path] to the fullpath of the config folder just created
-      - ~/headscale:/etc/headscale
+      - ~/headscale/config:/etc/headscale
     command: serve
