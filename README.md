@@ -237,7 +237,7 @@ docker exec headscale \
 On a client machine, execute the `tailscale` login command:
 
 ```shell
-tailscale up --login-server YOUR_HEADSCALE_URL
+tailscale up --login-server http://ip_de_servidor:8080 --hostname=name_device
 ```
 
 To register a machine when running `headscale` in a container, take the headscale command and pass it to the container:
