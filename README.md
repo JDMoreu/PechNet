@@ -49,7 +49,7 @@ touch ./config/config.yaml
 ```
 
 Modifica el archivo de configuración según tus preferencias antes de lanzar el contenedor de Docker.
-Aquí tienes algunas configuraciones que probablemente quieras (https://github.com/JDMoreu/PechiNet/blob/master/headscale/config/config.yml).
+Aquí tienes algunas configuraciones que probablemente quieras [config.yml](https://github.com/JDMoreu/PechiNet/blob/master/headscale/config/config.yml)
 
 4. Inicia el servidor headscale mientras trabajas en el directorio host headscale:
 
