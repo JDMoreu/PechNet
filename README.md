@@ -1,9 +1,9 @@
-# Ejecutando headscale en un contenedor
+# Ejecutar headscale en un contenedor
 
 !!! advertencia "Documentación comunitaria"
 
-    Esta página no está mantenida activamente por los autores de headscale y está
-    escrita por miembros de la comunidad. _No_ está verificada por los desarrolladores de `headscale`.
+    Esta página no está mantenida activamente por los autores de headscale.
+    _No_ está verificada por los desarrolladores de `headscale`.
 
     **Podría estar desactualizada y podrían faltar pasos necesarios**.
 
@@ -49,7 +49,7 @@ touch ./config/config.yaml
 ```
 
 Modifica el archivo de configuración según tus preferencias antes de lanzar el contenedor de Docker.
-Aquí tienes algunas configuraciones que probablemente quieras [config.yml](https://github.com/JDMoreu/PechiNet/blob/master/headscale/config/config.yml)
+Aquí tienes algunas configuraciones que probablemente quieras [aquí.](https://github.com/JDMoreu/PechiNet/blob/master/headscale/config/config.yml)
 
 4. Inicia el servidor headscale mientras trabajas en el directorio host headscale:
 
