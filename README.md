@@ -18,14 +18,15 @@ Este proyecto esta basado en [healscale](https://github.com/juanfont/headscale/b
   ```bash
   git clone https://github.com/NaylaMitcuri/pechinet.git
   cd pechinet
+```
 
 2. **Permiso de ejecuión del Script**
 
 
 ```shell
 sudo chmod +x script_install_es-sh
-
 ```
+
 
 3. **Información relevante** si deseas modificar los puertos por defecto del contenedor, puedes ir a:
 
