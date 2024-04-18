@@ -82,11 +82,11 @@ Puedes verificar que este instalado con:
 tailscale --version
 ```
 
-## **Conectar la VPS con `tailscale` a el servicio de `headscale` que corre en la misma VPS.**
+### Conectar la VPS con `tailscale` a el servicio de `headscale` que corre en la misma VPS.
 
-**Para conectarnos al servicio de `headscale` puedes usar el siguiente comando:**
+Para conectarnos al servicio de `headscale` puedes elegir entre el comando A o B:
 
-- **1. Registrar una máquina (inicio de sesión normal)**
+- **A. Registrar una máquina (inicio de sesión normal)**
 
 En una máquina cliente, ejecuta el comando `tailscale` login:
 
@@ -101,7 +101,7 @@ docker exec headscale \
 headscale --user myfirstuser nodes register --key <TU_CLAVE_DE_MAQUINA>
 ```
 
-- **2. Registrar máquina utilizando una clave pre-autenticada**
+- **B. Registrar máquina utilizando una clave pre-autenticada**
 
 Genera una clave utilizando la línea de comandos:
 
