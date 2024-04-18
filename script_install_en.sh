@@ -1,14 +1,5 @@
 #!/bin/bash
 
-# Step 1: Install Docker and Docker Compose
-echo "Installing Docker and Docker Compose..."
-sudo apt update
-sudo apt install -y docker.io docker-compose
-
-# Checking if the installation was successful
-docker --version
-docker-compose --version
-
 # Step 2: Copy the 'headscale' directory to the user's home directory
 echo "Copying the 'headscale' directory to the home directory..."
 cp -r ./headscale ~/
