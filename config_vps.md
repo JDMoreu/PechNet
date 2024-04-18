@@ -1,6 +1,6 @@
 # Configuración VPS:
 
-## `Ejecución del contenedor de Headscale y cliente tailscale VPS`
+## Ejecución del contenedor de Headscale y cliente tailscale VPS
 
 ### 1. Clonar el repositorio de PechiNet
 
