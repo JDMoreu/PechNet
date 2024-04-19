@@ -12,10 +12,10 @@ cd pechinet
 ### 2. Permiso de ejecución del script
 
 ```shell
-sudo chmod +x script_install_es.sh
+sudo chmod +x install.sh
 ```
 
-### 3. Información relevante
+### Información relevante. ( Si no deseas modificar los puertos omite este paso )
 
 Si deseas modificar los puertos por defecto del contenedor, puedes ir a: `docker-compose.yaml`
 
@@ -37,13 +37,13 @@ services:
 
 > **Nota**: Utiliza `0.0.0.0:8080:8080` en lugar de `127.0.0.1:8080:8080` si quieres exponer el contenedor externamente.
 
-### 4. Ejecutar el script e ingresar la información solicitada
+### 3. Ejecutar el script e ingresar la información solicitada
 
 ```bash
-sudo ./script_install_es.sh
+sudo ./install.sh
 ```
 
-### 5. Verificar que Headscale se está ejecutando
+### 4. Verificar que Headscale se está ejecutando
 
 Sigue los registros del contenedor:
 
@@ -63,7 +63,7 @@ Verifica que Headscale está disponible:
 curl http://127.0.0.1:9090/metrics
 ```
 
-### 6. Crear un usuario ([Tailnet](https://tailscale.com/kb/1136/tailnet/))
+### 5. Crear un usuario ([Tailnet](https://tailscale.com/kb/1136/tailnet/))
 
 ```shell
 docker exec headscale \

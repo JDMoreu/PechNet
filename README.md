@@ -4,7 +4,7 @@ Esta documentación tiene como objetivo mostrar al usuario cómo configurar y ej
 
 >Nota: `Interface grafica en desarrollo.`
 
-  ![esquema de pechinet](FechiNet_esquema.svg)
+  ![esquema de pechinet](/assets/FechiNet_esquema.svg)
   <div align="center">Esquema de la arquitectura de PechiNet.</div>
 
 ## Beneficios de usar Pechinet
@@ -23,6 +23,6 @@ Esta documentación tiene como objetivo mostrar al usuario cómo configurar y ej
 ## Pasos a seguir
 
 >Nota: ` Debes configurar el firewall de tu VPS para abrir los puertos que quieras usar o desactivarlo para hacer las pruebas.`
-1. [**Configuración de la VPS**](/config_vps.md) 
-2. [**Configuracion de la maquina local**](/config_local.md)
-3. [**Redireccionamiento del tráfico de entrada de la VPS al Servidor Local**](/config_iptables.md)
+1. [**Configuración de la VPS**](/doc/config_vps.md) 
+2. [**Configuracion de la maquina local**](/doc/config_local.md)
+3. [**Redireccionamiento del tráfico de entrada de la VPS al Servidor Local**](/doc/config_iptables.md)
