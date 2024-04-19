@@ -4,6 +4,8 @@ Esta documentación tiene como objetivo mostrar al usuario cómo configurar y ej
 
 >Nota: `Interface grafica en desarrollo.`
 
+![esquema de pechinet](FechiNet_esquema.png)
+
 ## Beneficios de usar Pechinet
 
 - **CERO CONFIGURACIÓN DE TU RED LOCAL.**
