@@ -7,7 +7,7 @@ Esta documentación tiene como objetivo mostrar al usuario cómo configurar y ej
   ![esquema de pechinet](/assets/FechiNet_esquema.svg)
   <div align="center">Esquema de la arquitectura de PechiNet.</div>
 
-## Beneficios de usar Pechinet
+## Beneficios de usar Pechnet
 
 - **CERO CONFIGURACIÓN DE TU RED LOCAL.**
 - **NO ES NECESARIO: ABRIR PUERTOS O TENER UNA IP PUBLICA EN TU DOMILICIO.**
@@ -20,7 +20,7 @@ Esta documentación tiene como objetivo mostrar al usuario cómo configurar y ej
 - Contar con una VPS, no importa el proveedor. ( Si no cuentas con una, puedes usar el plan gratis que ofrece [Oracle Cloud](https://www.oracle.com/cloud/free/) )
 - Contar con una máquina local que quieras hacer pública por medio de PechiNet.
 
-## Pasos a seguir
+## Pasos a seguir de instalación
 
 >Nota: ` Debes configurar el firewall de tu VPS para abrir los puertos que quieras usar o desactivarlo para hacer las pruebas.`
 1. [**Configuración de la VPS**](/doc/config_vps.md) 
