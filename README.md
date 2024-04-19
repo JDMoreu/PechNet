@@ -4,7 +4,7 @@ Esta documentación tiene como objetivo mostrar al usuario cómo configurar y ej
 
 >Nota: `Interface grafica en desarrollo.`
 
-  ![esquema de pechinet](FechiNet_esquema.svg)
+  ![esquema de pechinet](FechiNet_esquema.png)
   <div align="center">Esquema de la arquitectura de PechiNet.</div>
 
 ## Beneficios de usar Pechinet
